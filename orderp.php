@@ -171,8 +171,8 @@ function sendOrderConfirmationEmail($orderData, $order_id) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'amineamineamine24oz@gmail.com';
-        $mail->Password = 'mbrkzohxajvxrjpa';
+        $mail->Username = 'your email adress';
+        $mail->Password = 'your app password code';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
