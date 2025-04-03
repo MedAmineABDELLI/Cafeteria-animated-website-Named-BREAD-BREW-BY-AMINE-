@@ -1,0 +1,546 @@
+/* Styles spécifiques pour la page Order */
+.order-banner {
+    background: linear-gradient(rgba(74, 37, 17, 0.8), rgba(74, 37, 17, 0.8)), url('bakery-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    text-align: center;
+    padding: 60px 10%;
+    margin-bottom: 40px;
+}
+
+/* Styles pour les titres de catégories */
+.section-title {
+    grid-column: 1 / -1;  /* S'étend sur toutes les colonnes */
+    font-family: 'Playfair Display', serif;
+    color: #4A2511;
+    font-size: 1.8rem;
+    margin: 30px 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E0CAA8;
+}
+
+.order-banner h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1.2s ease-out;
+}
+
+.order-banner p {
+    font-size: 1.2rem;
+    animation: fadeIn 1.5s ease-out;
+}
+
+.order-form-section {
+    padding: 20px 10% 60px;
+    background-color: #FFF8E7;
+}
+
+.order-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Styles pour les accordéons de catégorie */
+.category-accordion {
+    margin-bottom: 20px;
+    border: 1px solid #E0CAA8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.category-header {
+    background-color: #FFF8E7;
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-header h2 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #4A2511;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.category-header h2 i {
+    transition: transform 0.3s ease;
+}
+
+.category-header.active h2 i {
+    transform: rotate(180deg);
+}
+
+.category-content {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.category-content.active {
+    display: block;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.product-item {
+    display: flex;
+    border: 1px solid #E0CAA8;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.product-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-details h3 {
+    font-family: 'Playfair Display', serif;
+    color: #4A2511;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: #8B4513;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.option-group {
+    margin-right: 15px;
+}
+
+.option-group label {
+    display: block;
+    font-size: 0.85rem;
+    color: #6B4D33;
+    margin-bottom: 3px;
+}
+
+.quantity-select, .flavor-select, .topping-select, .type-select {
+    padding: 5px 10px;
+    border: 1px solid #E0CAA8;
+    border-radius: 4px;
+    background-color: #FFF8E7;
+    color: #4A2511;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+/* Order Summary */
+.order-summary {
+    background-color: #FFF8E7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.summary-row.total {
+    font-weight: 600;
+    color: #4A2511;
+    border-top: 1px solid #E0CAA8;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+/* Style pour les articles sélectionnés dans le résumé */
+#selected-items {
+    margin-bottom: 15px;
+}
+
+.selected-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #E0CAA8;
+}
+
+.selected-item-name {
+    flex: 2;
+}
+
+.selected-item-qty {
+    flex: 1;
+    text-align: center;
+}
+
+.selected-item-price {
+    flex: 1;
+    text-align: right;
+}
+
+/* Order Details */
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h3 {
+    font-family: 'Playfair Display', serif;
+    color: #4A2511;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.form-section h4 {
+    font-family: 'Playfair Display', serif;
+    color: #4A2511;
+    margin: 15px 0 10px;
+    font-size: 1.1rem;
+}
+
+.payment-options, .order-type-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.payment-option, .order-type-option {
+    display: flex;
+    align-items: center;
+}
+
+.payment-option input, .order-type-option input {
+    margin-right: 8px;
+}
+
+.payment-option label, .order-type-option label {
+    color: #6B4D33;
+}
+
+textarea#instructions {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    border: 1px solid #E0CAA8;
+    border-radius: 8px;
+    background-color: #FFF;
+    resize: none;
+    font-family: 'Poppins', sans-serif;
+    color: #4A2511;
+}
+
+input[type="text"], input[type="tel"], input[type="email"] {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #E0CAA8;
+    border-radius: 8px;
+    background-color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    color: #4A2511;
+    margin-bottom: 10px;
+}
+
+#orderNumber {
+    max-width: 300px;
+}
+
+.datetime-container {
+    display: flex;
+    gap: 15px;
+}
+
+.date-input, .time-input {
+    flex: 1;
+}
+
+.ampm-select select {
+    height: 38px;
+    padding: 0 10px;
+    border: 1px solid #E0CAA8;
+    border-radius: 8px;
+    background-color: #FFF;
+    color: #4A2511;
+}
+
+.date-input label, .time-input label {
+    display: block;
+    font-size: 0.85rem;
+    color: #6B4D33;
+    margin-top: 3px;
+}
+
+.name-fields, .address-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.address-field.half {
+    width: 100%;
+}
+
+.contact-field {
+    margin-bottom: 15px;
+}
+
+.contact-field label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4A2511;
+}
+
+.required {
+    color: #D35400;
+}
+
+.submit-container {
+    text-align: center;
+}
+
+.submit-button {
+    padding: 12px 40px;
+    background-color: #4A2511;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #6B4D33;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles pour la validation */
+.error {
+    color: #D35400;
+    font-size: 0.85rem;
+    margin-top: 3px;
+}
+
+input.invalid, textarea.invalid {
+    border-color: #D35400;
+    background-color: #FFF0E8;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .payment-options {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .datetime-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .payment-options, .order-type-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .name-fields, .address-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .order-banner h1 {
+        font-size: 2.2rem;
+    }
+    
+    .product-item {
+        flex-direction: column;
+    }
+
+    /* Enhanced styles for form fields */
+.contact-field {
+    margin-bottom: 20px;
+}
+
+.contact-field label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4A2511;
+    font-weight: 500;
+}
+
+/* Improved input styling */
+input[type="text"], 
+input[type="tel"], 
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #E0CAA8;
+    border-radius: 8px;
+    background-color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    color: #4A2511;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, 
+input[type="tel"]:focus, 
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #8B4513;
+    box-shadow: 0 0 5px rgba(139, 69, 19, 0.3);
+}
+
+/* Enhanced delivery address section */
+#delivery-details {
+    background-color: #FFF8E7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 15px;
+    border-left: 4px solid #8B4513;
+}
+
+/* Animation for showing/hiding delivery details */
+#delivery-details, #pickup-details {
+    transition: all 0.4s ease-in-out;
+    overflow: hidden;
+    max-height: 600px;
+}
+
+#delivery-details.hidden, #pickup-details.hidden {
+    max-height: 0;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+}
+
+/* Enhanced validation styling */
+.error {
+    color: #D35400;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+}
+
+input.invalid {
+    border-color: #D35400;
+    background-color: #FFF0E8;
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+/* Enhanced radio buttons for payment and order type */
+.order-type-option input[type="radio"],
+.payment-option input[type="radio"] {
+    display: none;
+}
+
+.order-type-option label,
+.payment-option label {
+    display: inline-block;
+    background-color: #FFF;
+    border: 2px solid #E0CAA8;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.order-type-option input[type="radio"]:checked + label,
+.payment-option input[type="radio"]:checked + label {
+    background-color: #8B4513;
+    border-color: #8B4513;
+    color: #FFF;
+}
+
+/* Responsive improvements for address fields */
+@media (max-width: 768px) {
+    .address-row {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    input[type="text"], 
+    input[type="tel"], 
+    input[type="email"] {
+        padding: 10px 12px;
+    }
+}
+}

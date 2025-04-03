@@ -1,0 +1,193 @@
+/* Styles pour la page Menu */
+
+/* Bannière avec image de fond */
+.menu-banner {
+    background-image: url('image6.png'); /* Votre image de fond */
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Hauteur adaptée */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.menu-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay sombre pour rendre le texte lisible */
+    z-index: 1;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.menu-banner h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1.2s ease-out;
+}
+
+.menu-banner p {
+    font-size: 1.5rem;
+    margin: 0 auto;
+    max-width: 700px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+/* Sections du menu */
+.menu-section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.menu-section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #4A2511;
+    margin-bottom: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.menu-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #4A2511;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.menu-item {
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+}
+
+.menu-img {
+    border-radius: 15px;
+    overflow: hidden;
+    height: 250px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover .menu-img img {
+    transform: scale(1.05);
+}
+
+.menu-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #4A2511;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #4A2511;
+}
+
+/* Styles spécifiques pour chaque section */
+.bread-section {
+    background-color: #FFF8E7;
+}
+
+.pastries-section {
+    background-color: #3D1C00;
+    color: white;
+}
+
+.pastries-section h2 {
+    color: white;
+}
+
+.pastries-section h2::after {
+    background-color: white;
+}
+
+.pastries-section .menu-item h3 {
+    color: white;
+}
+
+.pastries-section .price {
+    color: #E0CAA8;
+}
+
+.desserts-section {
+    background-color: #FFF8E7;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-banner h1 {
+        font-size: 3rem;
+    }
+    
+    .menu-banner p {
+        font-size: 1.2rem;
+    }
+    
+    .menu-section {
+        padding: 50px 5%;
+    }
+    
+    .menu-section h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .menu-banner h1 {
+        font-size: 2.5rem;
+    }
+    
+    .menu-banner {
+        height: 400px;
+    }
+    
+    .menu-img {
+        height: 200px;
+    }
+}

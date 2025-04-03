@@ -1,0 +1,1020 @@
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3997f9a3f36sm13763696f8f.32 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3997f9a3f36sm13763696f8f.32 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3997f9a3f36sm13763696f8f.32 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3997f9a3f36sm13763696f8f.32 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3997f9b565bsm13684994f8f.58 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3997f9b565bsm13684994f8f.58 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3997f9b565bsm13684994f8f.58 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3997f9b565bsm13684994f8f.58 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-43d43f43e50sm196784485e9.12 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43d43f43e50sm196784485e9.12 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43d43f43e50sm196784485e9.12 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-43d43f43e50sm196784485e9.12 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-43d4fd28a46sm148881415e9.24 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43d4fd28a46sm148881415e9.24 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43d4fd28a46sm148881415e9.24 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-43d4fd28a46sm148881415e9.24 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3997f9efdedsm13844802f8f.96 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3997f9efdedsm13844802f8f.96 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-3997f9efdedsm13844802f8f.96 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3997f9efdedsm13844802f8f.96 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 
+2: SMTP Error: Could not connect to SMTP host.
+2: SERVER -> CLIENT: 
+2: SMTP Error: Could not connect to SMTP host.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-43d4fdb0669sm149161265e9.34 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43d4fdb0669sm149161265e9.34 - gsmtp
+
+1: SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 5b1f17b1804b1-43d4fdb0669sm149161265e9.34 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-43d4fdb0669sm149161265e9.34 - gsmtp
+
+2: SMTP Error: Could not authenticate.
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3997f9957aasm13954105f8f.10 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<amineamineamine24oz@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3997f9957aasm13954105f8f.10 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<amineamineamine24oz@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3997f9957aasm13954105f8f.10 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3997f9957aasm13954105f8f.10 - gsmtp
+
+1: CLIENT -> SERVER: Date: Tue, 25 Mar 2025 14:34:08 +0100
+
+1: CLIENT -> SERVER: To: ABDELLI Mohamed El Amine <amineamineamine24oz@gmail.com>
+
+1: CLIENT -> SERVER: From: Bread & Brew <amineamineamine24oz@gmail.com>
+
+1: CLIENT -> SERVER: Subject: Code de confirmation - Abonnement Bread & Brew
+
+1: CLIENT -> SERVER: Message-ID: <DEszkKWakYl4yRtUP01UlgBcQC2u68zdWYjIMAel1Jc@localhost>
+
+1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+1: CLIENT -> SERVER: MIME-Version: 1.0
+
+1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+1: CLIENT -> SERVER:  boundary="b1=_DEszkKWakYl4yRtUP01UlgBcQC2u68zdWYjIMAel1Jc"
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_DEszkKWakYl4yRtUP01UlgBcQC2u68zdWYjIMAel1Jc
+
+1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Bonjour ABDELLI Mohamed El Amine,
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Merci d'avoir choisi notre formule gourmand. Pour confirmer votre abonnement, veuillez utiliser le code à 6 chiffres suivant :
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 622147
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Ce code est valable pendant 30 minutes. Veuillez retourner sur notre site pour finaliser votre inscription.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: À bientôt dans notre café!
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_DEszkKWakYl4yRtUP01UlgBcQC2u68zdWYjIMAel1Jc
+
+1: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:             <html>
+
+1: CLIENT -> SERVER:             <head>
+
+1: CLIENT -> SERVER:                 <style>
+
+1: CLIENT -> SERVER:                     body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #4A2511; }
+
+1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+1: CLIENT -> SERVER:                     .header { text-align: center; margin-bottom: 20px; }
+
+1: CLIENT -> SERVER:                     .code { font-size: 32px; font-weight: bold; text-align: center; padding: 15px; 
+
+1: CLIENT -> SERVER:                             background-color: #FFF8E7; border-radius: 5px; margin: 20px 0; color: #4A2511; }
+
+1: CLIENT -> SERVER:                     .footer { font-size: 12px; text-align: center; margin-top: 30px; color: #6B4D33; }
+
+1: CLIENT -> SERVER:                 </style>
+
+1: CLIENT -> SERVER:             </head>
+
+1: CLIENT -> SERVER:             <body>
+
+1: CLIENT -> SERVER:                 <div class='container'>
+
+1: CLIENT -> SERVER:                     <div class='header'>
+
+1: CLIENT -> SERVER:                         <h1>Merci de vous être abonné à Bread & Brew!</h1>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                     <p>Bonjour ABDELLI Mohamed El Amine,</p>
+
+1: CLIENT -> SERVER:                     <p>Merci d'avoir choisi notre formule <strong>gourmand</strong>. Pour confirmer votre abonnement, veuillez utiliser le code à 6 chiffres ci-dessous :</p>
+
+1: CLIENT -> SERVER:                     <div class='code'>622147</div>
+
+1: CLIENT -> SERVER:                     <p>Ce code est valable pendant 30 minutes. Veuillez retourner sur notre site pour finaliser votre inscription.</p>
+
+1: CLIENT -> SERVER:                     <p>À bientôt dans notre café!</p>
+
+1: CLIENT -> SERVER:                     <div class='footer'>
+
+1: CLIENT -> SERVER:                         <p>Si vous n'avez pas demandé cet abonnement, veuillez ignorer cet email.</p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:             </body>
+
+1: CLIENT -> SERVER:             </html>
+
+1: CLIENT -> SERVER:         
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_DEszkKWakYl4yRtUP01UlgBcQC2u68zdWYjIMAel1Jc--
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: .
+
+2: SERVER -> CLIENT: 250 2.0.0 OK  1742909651 ffacd0b85a97d-3997f9957aasm13954105f8f.10 - gsmtp
+
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3997f9957aasm13954105f8f.10 - gsmtp
+
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-43d43f55721sm202263145e9.20 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<amineamineamine24oz@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-43d43f55721sm202263145e9.20 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<amineamineamine24oz@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-43d43f55721sm202263145e9.20 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-43d43f55721sm202263145e9.20 - gsmtp
+
+1: CLIENT -> SERVER: Date: Tue, 25 Mar 2025 14:44:32 +0100
+
+1: CLIENT -> SERVER: To: Amine <amineamineamine24oz@gmail.com>
+
+1: CLIENT -> SERVER: From: Bread & Brew <amineamineamine24oz@gmail.com>
+
+1: CLIENT -> SERVER: Subject: Code de confirmation - Abonnement Bread & Brew
+
+1: CLIENT -> SERVER: Message-ID: <FVdOC8RsAKaTZJPBLrD7tLTNifN7HfURJbMDtIFODw@localhost>
+
+1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+1: CLIENT -> SERVER: MIME-Version: 1.0
+
+1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+1: CLIENT -> SERVER:  boundary="b1=_FVdOC8RsAKaTZJPBLrD7tLTNifN7HfURJbMDtIFODw"
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_FVdOC8RsAKaTZJPBLrD7tLTNifN7HfURJbMDtIFODw
+
+1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Bonjour Amine,
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Merci d'avoir choisi notre formule gourmand. Pour confirmer votre abonnement, veuillez utiliser le code à 6 chiffres suivant :
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 475483
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Ce code est valable pendant 30 minutes. Veuillez retourner sur notre site pour finaliser votre inscription.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: À bientôt dans notre café!
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_FVdOC8RsAKaTZJPBLrD7tLTNifN7HfURJbMDtIFODw
+
+1: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:             <html>
+
+1: CLIENT -> SERVER:             <head>
+
+1: CLIENT -> SERVER:                 <style>
+
+1: CLIENT -> SERVER:                     body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #4A2511; }
+
+1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+1: CLIENT -> SERVER:                     .header { text-align: center; margin-bottom: 20px; }
+
+1: CLIENT -> SERVER:                     .code { font-size: 32px; font-weight: bold; text-align: center; padding: 15px; 
+
+1: CLIENT -> SERVER:                             background-color: #FFF8E7; border-radius: 5px; margin: 20px 0; color: #4A2511; }
+
+1: CLIENT -> SERVER:                     .footer { font-size: 12px; text-align: center; margin-top: 30px; color: #6B4D33; }
+
+1: CLIENT -> SERVER:                 </style>
+
+1: CLIENT -> SERVER:             </head>
+
+1: CLIENT -> SERVER:             <body>
+
+1: CLIENT -> SERVER:                 <div class='container'>
+
+1: CLIENT -> SERVER:                     <div class='header'>
+
+1: CLIENT -> SERVER:                         <h1>Merci de vous être abonné à Bread & Brew!</h1>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                     <p>Bonjour Amine,</p>
+
+1: CLIENT -> SERVER:                     <p>Merci d'avoir choisi notre formule <strong>gourmand</strong>. Pour confirmer votre abonnement, veuillez utiliser le code à 6 chiffres ci-dessous :</p>
+
+1: CLIENT -> SERVER:                     <div class='code'>475483</div>
+
+1: CLIENT -> SERVER:                     <p>Ce code est valable pendant 30 minutes. Veuillez retourner sur notre site pour finaliser votre inscription.</p>
+
+1: CLIENT -> SERVER:                     <p>À bientôt dans notre café!</p>
+
+1: CLIENT -> SERVER:                     <div class='footer'>
+
+1: CLIENT -> SERVER:                         <p>Si vous n'avez pas demandé cet abonnement, veuillez ignorer cet email.</p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:             </body>
+
+1: CLIENT -> SERVER:             </html>
+
+1: CLIENT -> SERVER:         
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_FVdOC8RsAKaTZJPBLrD7tLTNifN7HfURJbMDtIFODw--
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: .
+
+2: SERVER -> CLIENT: 250 2.0.0 OK  1742910274 5b1f17b1804b1-43d43f55721sm202263145e9.20 - gsmtp
+
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-43d43f55721sm202263145e9.20 - gsmtp
+
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-43d4fd187fasm153336055e9.14 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.103.211.227]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<amineamineamine24oz@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-43d4fd187fasm153336055e9.14 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<amineamineamine24oz@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-43d4fd187fasm153336055e9.14 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-43d4fd187fasm153336055e9.14 - gsmtp
+
+1: CLIENT -> SERVER: Date: Tue, 25 Mar 2025 14:45:41 +0100
+
+1: CLIENT -> SERVER: To: Amine <amineamineamine24oz@gmail.com>
+
+1: CLIENT -> SERVER: From: Bread & Brew <amineamineamine24oz@gmail.com>
+
+1: CLIENT -> SERVER: Subject: Code de confirmation - Abonnement Bread & Brew
+
+1: CLIENT -> SERVER: Message-ID: <vZNiG7DW00qrttuabxI6A3sIKIdZJnPqK2VDusMWA@localhost>
+
+1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+1: CLIENT -> SERVER: MIME-Version: 1.0
+
+1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+1: CLIENT -> SERVER:  boundary="b1=_vZNiG7DW00qrttuabxI6A3sIKIdZJnPqK2VDusMWA"
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_vZNiG7DW00qrttuabxI6A3sIKIdZJnPqK2VDusMWA
+
+1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Bonjour Amine,
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Merci d'avoir choisi notre formule passionne. Pour confirmer votre abonnement, veuillez utiliser le code à 6 chiffres suivant :
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 861122
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Ce code est valable pendant 30 minutes. Veuillez retourner sur notre site pour finaliser votre inscription.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: À bientôt dans notre café!
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_vZNiG7DW00qrttuabxI6A3sIKIdZJnPqK2VDusMWA
+
+1: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:             <html>
+
+1: CLIENT -> SERVER:             <head>
+
+1: CLIENT -> SERVER:                 <style>
+
+1: CLIENT -> SERVER:                     body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #4A2511; }
+
+1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+1: CLIENT -> SERVER:                     .header { text-align: center; margin-bottom: 20px; }
+
+1: CLIENT -> SERVER:                     .code { font-size: 32px; font-weight: bold; text-align: center; padding: 15px; 
+
+1: CLIENT -> SERVER:                             background-color: #FFF8E7; border-radius: 5px; margin: 20px 0; color: #4A2511; }
+
+1: CLIENT -> SERVER:                     .footer { font-size: 12px; text-align: center; margin-top: 30px; color: #6B4D33; }
+
+1: CLIENT -> SERVER:                 </style>
+
+1: CLIENT -> SERVER:             </head>
+
+1: CLIENT -> SERVER:             <body>
+
+1: CLIENT -> SERVER:                 <div class='container'>
+
+1: CLIENT -> SERVER:                     <div class='header'>
+
+1: CLIENT -> SERVER:                         <h1>Merci de vous être abonné à Bread & Brew!</h1>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                     <p>Bonjour Amine,</p>
+
+1: CLIENT -> SERVER:                     <p>Merci d'avoir choisi notre formule <strong>passionne</strong>. Pour confirmer votre abonnement, veuillez utiliser le code à 6 chiffres ci-dessous :</p>
+
+1: CLIENT -> SERVER:                     <div class='code'>861122</div>
+
+1: CLIENT -> SERVER:                     <p>Ce code est valable pendant 30 minutes. Veuillez retourner sur notre site pour finaliser votre inscription.</p>
+
+1: CLIENT -> SERVER:                     <p>À bientôt dans notre café!</p>
+
+1: CLIENT -> SERVER:                     <div class='footer'>
+
+1: CLIENT -> SERVER:                         <p>Si vous n'avez pas demandé cet abonnement, veuillez ignorer cet email.</p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:             </body>
+
+1: CLIENT -> SERVER:             </html>
+
+1: CLIENT -> SERVER:         
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_vZNiG7DW00qrttuabxI6A3sIKIdZJnPqK2VDusMWA--
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: .
+
+2: SERVER -> CLIENT: 250 2.0.0 OK  1742910344 5b1f17b1804b1-43d4fd187fasm153336055e9.14 - gsmtp
+
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-43d4fd187fasm153336055e9.14 - gsmtp
+
+2: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3997f9b3f7csm16335217f8f.49 - gsmtp
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.104.0.188]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: STARTTLS
+
+2: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+1: CLIENT -> SERVER: EHLO localhost
+
+2: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [105.104.0.188]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+1: CLIENT -> SERVER: AUTH LOGIN
+
+2: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+1: CLIENT -> SERVER: [credentials hidden]
+2: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+1: CLIENT -> SERVER: MAIL FROM:<amineamineamine24oz@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-3997f9b3f7csm16335217f8f.49 - gsmtp
+
+1: CLIENT -> SERVER: RCPT TO:<amineamineamine24oz@gmail.com>
+
+2: SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-3997f9b3f7csm16335217f8f.49 - gsmtp
+
+1: CLIENT -> SERVER: DATA
+
+2: SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-3997f9b3f7csm16335217f8f.49 - gsmtp
+
+1: CLIENT -> SERVER: Date: Wed, 26 Mar 2025 12:35:20 +0100
+
+1: CLIENT -> SERVER: To: ABDELLI Mohamed El Amine <amineamineamine24oz@gmail.com>
+
+1: CLIENT -> SERVER: From: Bread & Brew <amineamineamine24oz@gmail.com>
+
+1: CLIENT -> SERVER: Subject: Code de confirmation - Abonnement Bread & Brew
+
+1: CLIENT -> SERVER: Message-ID: <UVBEmGZVPk4FHmCHoqdY9gNeGrxtY1YJSePCj99Ozd4@localhost>
+
+1: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+1: CLIENT -> SERVER: MIME-Version: 1.0
+
+1: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+1: CLIENT -> SERVER:  boundary="b1=_UVBEmGZVPk4FHmCHoqdY9gNeGrxtY1YJSePCj99Ozd4"
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_UVBEmGZVPk4FHmCHoqdY9gNeGrxtY1YJSePCj99Ozd4
+
+1: CLIENT -> SERVER: Content-Type: text/plain; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Bonjour ABDELLI Mohamed El Amine,
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Merci d'avoir choisi notre formule gourmand. Pour confirmer votre abonnement, veuillez utiliser le code à 6 chiffres suivant :
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 755715
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: Ce code est valable pendant 30 minutes. Veuillez retourner sur notre site pour finaliser votre inscription.
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: À bientôt dans notre café!
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_UVBEmGZVPk4FHmCHoqdY9gNeGrxtY1YJSePCj99Ozd4
+
+1: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+1: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER:             <html>
+
+1: CLIENT -> SERVER:             <head>
+
+1: CLIENT -> SERVER:                 <style>
+
+1: CLIENT -> SERVER:                     body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #4A2511; }
+
+1: CLIENT -> SERVER:                     .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+
+1: CLIENT -> SERVER:                     .header { text-align: center; margin-bottom: 20px; }
+
+1: CLIENT -> SERVER:                     .code { font-size: 32px; font-weight: bold; text-align: center; padding: 15px; 
+
+1: CLIENT -> SERVER:                             background-color: #FFF8E7; border-radius: 5px; margin: 20px 0; color: #4A2511; }
+
+1: CLIENT -> SERVER:                     .footer { font-size: 12px; text-align: center; margin-top: 30px; color: #6B4D33; }
+
+1: CLIENT -> SERVER:                 </style>
+
+1: CLIENT -> SERVER:             </head>
+
+1: CLIENT -> SERVER:             <body>
+
+1: CLIENT -> SERVER:                 <div class='container'>
+
+1: CLIENT -> SERVER:                     <div class='header'>
+
+1: CLIENT -> SERVER:                         <h1>Merci de vous être abonné à Bread & Brew!</h1>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                     <p>Bonjour ABDELLI Mohamed El Amine,</p>
+
+1: CLIENT -> SERVER:                     <p>Merci d'avoir choisi notre formule <strong>gourmand</strong>. Pour confirmer votre abonnement, veuillez utiliser le code à 6 chiffres ci-dessous :</p>
+
+1: CLIENT -> SERVER:                     <div class='code'>755715</div>
+
+1: CLIENT -> SERVER:                     <p>Ce code est valable pendant 30 minutes. Veuillez retourner sur notre site pour finaliser votre inscription.</p>
+
+1: CLIENT -> SERVER:                     <p>À bientôt dans notre café!</p>
+
+1: CLIENT -> SERVER:                     <div class='footer'>
+
+1: CLIENT -> SERVER:                         <p>Si vous n'avez pas demandé cet abonnement, veuillez ignorer cet email.</p>
+
+1: CLIENT -> SERVER:                     </div>
+
+1: CLIENT -> SERVER:                 </div>
+
+1: CLIENT -> SERVER:             </body>
+
+1: CLIENT -> SERVER:             </html>
+
+1: CLIENT -> SERVER:         
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: --b1=_UVBEmGZVPk4FHmCHoqdY9gNeGrxtY1YJSePCj99Ozd4--
+
+1: CLIENT -> SERVER: 
+
+1: CLIENT -> SERVER: .
+
+2: SERVER -> CLIENT: 250 2.0.0 OK  1742988922 ffacd0b85a97d-3997f9b3f7csm16335217f8f.49 - gsmtp
+
+1: CLIENT -> SERVER: QUIT
+
+2: SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-3997f9b3f7csm16335217f8f.49 - gsmtp
+

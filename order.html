@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Bread & Brew</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barre de Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <img src="cafe-vintage-logo-design-isnpiration-pour-coffee-shop_427676-94.jpg" alt="Bread & Brew Logo" class="logo-img">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="order.html" >Order</a></li>
+                <li><a href="subs.php" >SUBSCRIBE</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="order-banner">
+        <div class="banner-content">
+            <h1>Bakery Products Order Form</h1>
+            <p>Order your favorite freshly baked goods and handcrafted coffee</p>
+        </div>
+    </section>
+
+    <!-- Order Form Section -->
+    <section class="order-form-section">
+        <div class="order-container">
+            <!-- Product Selection -->
+            <div class="product-grid">
+                <!-- SECTION: SIGNATURE DRINKS -->
+                <h2 class="section-title">Signature Drinks</h2>
+                
+                <!-- Product Item: Americano -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="americano">
+                    </div>
+                    <div class="product-img">
+                        <img src="americano.jpg" alt="Americano">
+                    </div>
+                    <div class="product-details">
+                        <h3>Americano</h3>
+                        <p class="price">$10.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Latte -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="latte">
+                    </div>
+                    <div class="product-img">
+                        <img src="latte-macchiato.png" alt="Latte">
+                    </div>
+                    <div class="product-details">
+                        <h3>Latte</h3>
+                        <p class="price">$10.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Cappuccino -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="cappuccino">
+                    </div>
+                    <div class="product-img">
+                        <img src="vecteezy_hot-cappuccino-coffee-with-leave-shaped-art-on-a-wooden-table_1979032.JPG" alt="Cappuccino">
+                    </div>
+                    <div class="product-details">
+                        <h3>Cappuccino</h3>
+                        <p class="price">$10.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Espresso -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="espresso">
+                    </div>
+                    <div class="product-img">
+                        <img src="2021_pack_dri_expresso_3.jpg" alt="Espresso">
+                    </div>
+                    <div class="product-details">
+                        <h3>Espresso</h3>
+                        <p class="price">$8.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Mocha -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="mocha">
+                    </div>
+                    <div class="product-img">
+                        <img src="the_perfect_mocha_coffee_29100_16x9.jpg" alt="Mocha">
+                    </div>
+                    <div class="product-details">
+                        <h3>Mocha</h3>
+                        <p class="price">$12.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Macchiato -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="macchiato">
+                    </div>
+                    <div class="product-img">
+                        <img src="expresso-macchiato.jpg" alt="Macchiato">
+                    </div>
+                    <div class="product-details">
+                        <h3>Macchiato</h3>
+                        <p class="price">$11.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION: ARTISANAL BREAD -->
+                <h2 class="section-title">Artisanal Bread</h2>
+
+                <!-- Product Item: Baguette -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="baguette">
+                    </div>
+                    <div class="product-img">
+                        <img src="baguette.jpg" alt="Baguette">
+                    </div>
+                    <div class="product-details">
+                        <h3>Baguette</h3>
+                        <p class="price">$8.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Sourdough -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="sourdough">
+                    </div>
+                    <div class="product-img">
+                        <img src="baguette2.jpg" alt="Sourdough">
+                    </div>
+                    <div class="product-details">
+                        <h3>Sourdough</h3>
+                        <p class="price">$9.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Ciabatta -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="ciabatta">
+                    </div>
+                    <div class="product-img">
+                        <img src="cibatta.jpg" alt="Ciabatta">
+                    </div>
+                    <div class="product-details">
+                        <h3>Ciabatta</h3>
+                        <p class="price">$7.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Rye Bread -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="ryeBread">
+                    </div>
+                    <div class="product-img">
+                        <img src="dark_rye.jpg" alt="Rye Bread">
+                    </div>
+                    <div class="product-details">
+                        <h3>Rye Bread</h3>
+                        <p class="price">$7.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Focaccia -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="focaccia">
+                    </div>
+                    <div class="product-img">
+                        <img src="foccaia.jpg" alt="Focaccia">
+                    </div>
+                    <div class="product-details">
+                        <h3>Focaccia</h3>
+                        <p class="price">$10.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Multigrain -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="multigrain">
+                    </div>
+                    <div class="product-img">
+                        <img src="multigrain.jpg" alt="Multigrain">
+                    </div>
+                    <div class="product-details">
+                        <h3>Multigrain</h3>
+                        <p class="price">$8.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION: BREAKFAST PASTRIES -->
+                <h2 class="section-title">Breakfast Pastries</h2>
+
+                <!-- Product Item: Croissant -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="croissant">
+                    </div>
+                    <div class="product-img">
+                        <img src="croissant.jpg" alt="Croissant">
+                    </div>
+                    <div class="product-details">
+                        <h3>Croissant</h3>
+                        <p class="price">$5.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Pain au Chocolat -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="painAuChocolat">
+                    </div>
+                    <div class="product-img">
+                        <img src="pain_au_chochomat.jpg" alt="Pain au Chocolat">
+                    </div>
+                    <div class="product-details">
+                        <h3>Pain au Chocolat</h3>
+                        <p class="price">$6.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Almond Croissant -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="almondCroissant">
+                    </div>
+                    <div class="product-img">
+                        <img src="croissant_almond.jpg" alt="Almond Croissant">
+                    </div>
+                    <div class="product-details">
+                        <h3>Almond Croissant</h3>
+                        <p class="price">$6.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Danish -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="danish">
+                    </div>
+                    <div class="product-img">
+                        <img src="danish.jpg" alt="Danish">
+                    </div>
+                    <div class="product-details">
+                        <h3>Danish</h3>
+                        <p class="price">$5.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Bagel -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="bagel">
+                    </div>
+                    <div class="product-img">
+                        <img src="bagel.jpg" alt="Bagel">
+                    </div>
+                    <div class="product-details">
+                        <h3>Bagel</h3>
+                        <p class="price">$4.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Brioche -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="brioche">
+                    </div>
+                    <div class="product-img">
+                        <img src="bioch.jpg" alt="Brioche">
+                    </div>
+                    <div class="product-details">
+                        <h3>Brioche</h3>
+                        <p class="price">$5.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION: SWEET DELIGHTS -->
+                <h2 class="section-title">Sweet Delights</h2>
+
+                <!-- Product Item: Cookies (déjà présent dans le code original) -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="cookies">
+                    </div>
+                    <div class="product-img">
+                        <img src="cookie.jpg" alt="Chocolate Chip Cookie">
+                    </div>
+                    <div class="product-details">
+                        <h3>Chocolate Chip Cookies (25 items per box)</h3>
+                        <p class="price">$25.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label>Flavor</label>
+                                <select class="flavor-select">
+                                    <option>Chocolate</option>
+                                    <option>Vanilla</option>
+                                    <option>Oatmeal</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label>Toppings</label>
+                                <select class="topping-select">
+                                    <option>Vanilla Icing</option>
+                                    <option>Chocolate Chips</option>
+                                    <option>None</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Brownies (déjà présent dans le code original) -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="brownies">
+                    </div>
+                    <div class="product-img">
+                        <img src="brown.jpg" alt="Classic Brownies">
+                    </div>
+                    <div class="product-details">
+                        <h3>Classic Brownies (20 items per box)</h3>
+                        <p class="price">$12.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Muffins (déjà présent dans le code original) -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="muffins">
+                    </div>
+                    <div class="product-img">
+                        <img src="muffin.jpg" alt="Blueberry Muffin">
+                    </div>
+                    <div class="product-details">
+                        <h3>Muffins (10 items per box)</h3>
+                        <p class="price">$10.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="option-group">
+                                <label>Flavor</label>
+                                <select class="flavor-select">
+                                    <option>Blueberry</option>
+                                    <option>Chocolate</option>
+                                    <option>Banana</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Éclair -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="eclair">
+                    </div>
+                    <div class="product-img">
+                        <img src="eclaire.jpg" alt="Éclair">
+                    </div>
+                    <div class="product-details">
+                        <h3>Éclair (8 items per box)</h3>
+                        <p class="price">$6.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Macaroon -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="macaroon">
+                    </div>
+                    <div class="product-img">
+                        <img src="macraon.jpg" alt="Macaroon">
+                    </div>
+                    <div class="product-details">
+                        <h3>Macaroon (15 items per box)</h3>
+                        <p class="price">$3.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Item: Fruit Tart -->
+                <div class="product-item">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="fruitTart">
+                    </div>
+                    <div class="product-img">
+                        <img src="fruit-tart-1-768x1024.jpg" alt="Fruit Tart">
+                    </div>
+                    <div class="product-details">
+                        <h3>Fruit Tart (4 items per box)</h3>
+                        <p class="price">$7.00</p>
+                        <div class="product-options">
+                            <div class="option-group">
+                                <label>Quantity</label>
+                                <select class="quantity-select">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Order Summary and Checkout Section -->
+<div class="order-summary-container">
+    <h2 class="section-title">Order Summary</h2>
+    <div class="order-summary">
+        <div id="selected-items">
+            <!-- Selected items will be added here dynamically -->
+        </div>
+        <div class="summary-row">
+            <span>Subtotal:</span>
+            <span id="subtotal">$0.00</span>
+        </div>
+        <div class="summary-row">
+            <span>Tax (9%):</span>
+            <span id="tax">$0.00</span>
+        </div>
+        <div class="summary-row total">
+            <span>Total:</span>
+            <span id="total">$0.00</span>
+        </div>
+    </div>
+
+    <!-- Customer Information -->
+    <h2 class="section-title">Your Information</h2>
+    <div class="form-section">
+        <div class="name-fields">
+            <div class="contact-field">
+                <label for="firstName">First Name <span class="required">*</span></label>
+                <input type="text" id="firstName" required>
+            </div>
+            <div class="contact-field">
+                <label for="lastName">Last Name <span class="required">*</span></label>
+                <input type="text" id="lastName" required>
+            </div>
+        </div>
+        <div class="contact-field">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="contact-field">
+            <label for="phone">Phone <span class="required">*</span></label>
+            <input type="tel" id="phone" required>
+        </div>
+    </div>
+
+    <!-- Order Type -->
+    <h2 class="section-title">Order Type</h2>
+    <div class="form-section">
+        <div class="order-type-options">
+            <div class="order-type-option">
+                <input type="radio" id="pickup" name="orderType" value="pickup" checked>
+                <label for="pickup">Pickup</label>
+            </div>
+            <div class="order-type-option">
+                <input type="radio" id="delivery" name="orderType" value="delivery">
+                <label for="delivery">Delivery</label>
+            </div>
+        </div>
+
+        <!-- Pickup Details (shown by default) -->
+        <div id="pickup-details">
+            <h4>Pickup Date and Time</h4>
+            <div class="datetime-container">
+                <div class="date-input">
+                    <input type="date" id="pickupDate" required>
+                    <label for="pickupDate">Date</label>
+                </div>
+                <div class="time-input">
+                    <input type="time" id="pickupTime" required>
+                    <label for="pickupTime">Time</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Delivery Details (hidden by default) -->
+        <div id="delivery-details" style="display: none;">
+            <h4>Delivery Address</h4>
+            <div class="address-row">
+                <div class="contact-field">
+                    <label for="street">Street Address <span class="required">*</span></label>
+                    <input type="text" id="street">
+                </div>
+                <div class="contact-field">
+                    <label for="apt">Apartment/Suite</label>
+                    <input type="text" id="apt">
+                </div>
+            </div>
+            <div class="address-row">
+                <div class="contact-field">
+                    <label for="city">City <span class="required">*</span></label>
+                    <input type="text" id="city">
+                </div>
+                <div class="contact-field">
+                    <label for="zipcode">Zip Code <span class="required">*</span></label>
+                    <input type="text" id="zipcode">
+                </div>
+            </div>
+            <h4>Delivery Date and Time</h4>
+            <div class="datetime-container">
+                <div class="date-input">
+                    <input type="date" id="deliveryDate" required>
+                    <label for="deliveryDate">Date</label>
+                </div>
+                <div class="time-input">
+                    <input type="time" id="deliveryTime" required>
+                    <label for="deliveryTime">Time</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Payment Section -->
+    <h2 class="section-title">Payment Method</h2>
+    <div class="form-section">
+        <div class="payment-options">
+            <div class="payment-option">
+                <input type="radio" id="credit" name="paymentMethod" value="credit" checked>
+                <label for="credit">Credit Card</label>
+            </div>
+            <div class="payment-option">
+                <input type="radio" id="debit" name="paymentMethod" value="debit">
+                <label for="debit">Debit Card</label>
+            </div>
+            <div class="payment-option">
+                <input type="radio" id="cash" name="paymentMethod" value="cash">
+                <label for="cash">Cash on Pickup/Delivery</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Special Instructions -->
+    <div class="form-section">
+        <h4>Special Instructions</h4>
+        <textarea id="instructions" placeholder="Any special requests or instructions?"></textarea>
+    </div>
+
+    <!-- Submit Order -->
+    <div class="submit-container">
+        <button type="submit" class="submit-button">Place Order</button>
+    </div>
+</div>
+                
+
+    <script src="order.js"></script>
+</body>
+</html>
